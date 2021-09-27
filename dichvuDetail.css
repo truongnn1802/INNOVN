@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:HK Nova;
+}
+@font-face {
+    font-family:HK Nova;
+    src:url('./font/HKNova-Regular.otf');
+    font-weight:400;
+   }
+    @font-face {
+    font-family:HK Nova;
+    src:url('./font/HKNova-SemiBold.otf');
+    font-weight:600;
+    }
+    @font-face {
+    font-family:HK Nova;
+    src:url('./font/HKNova-Medium.otf');
+    font-weight:500;
+    }
+    @font-face {
+    font-family:HK Nova;
+    src:url('./font/HKNova-SemiBold.otf');
+    font-weight:700;
+    }
+/* .service_details */
+.service_details{
+    margin: 70px 50px;
+}
+.service_details img{
+    max-width: 100%;
+    margin-bottom: 32px;
+}
+.service_details ul{
+    margin: 0 0 20px;
+    padding-left: 55px;
+    list-style: disc;
+}
+.service_details ul li{
+    line-height: 1.5;
+}
+.i{
+    font-weight: 700;
+}

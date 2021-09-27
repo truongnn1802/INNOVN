@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- iconLocalhost -->
+    <link rel="icon" href="./img/logo/logosmall.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>INNOVN</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-wrap">
+            <div class="header-top-wrap" id="top">
+                <div class="container header-top">
+                    <div class="header-hotline d-flex align-items-center">
+                        <a href=""><img src="./img/icon/Path.png" alt=""></a>
+                        <a href=""><span>Hotline: 0986 33 11 22</span></a>
+                    </div>
+                    <div class="header-icon">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid px-0 nav-x" id="onscroll-Event">
+                <div class="container header-sidebar ">
+                    <div class="header-logo">
+                        <a href="index.html"><img src="./img/logo/LogoGroup.jpg" alt=""></a>
+                    </div>
+                    <div class="header-navbar-sidebar d-flex align-items-center ">
+                        <div class="nav-search" data-toggle="modal" data-target="#Modalsearech">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="nav-mb" onclick="openMenu()">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid px-0 nav-y" id="onscroll-Event2">
+                <div class="container header-Nav">
+
+                    <a href="index.html"><img src="./img/logo/LogoGroup.jpg" alt=""></a>
+
+                    <div class="header-navbar">
+                        <ul class="menu-list d-flex justify-content-center">
+                            <li class="menu-item"><a href="index.html">TRANG CHỦ</a></li>
+                            <li class="menu-item"><a href="gioithieu.html">GIỚI THIỆU</a></li>
+                            <li class="menu-item"><a href="product.html">SẢN PHẨM</a></li>
+                            <li class="menu-item"><a href="dichvu.html">DỊCH VỤ BẢO HÀNH</a></li>
+                            <li class="menu-item"><a href="duan.html">DỰ ÁN</a></li>
+                            <li class="menu-item"><a href="tintuc.html">TIN TỨC</a></li>
+                            <li class="menu-item"><a href="lienhe.html">LIÊN HỆ</a></li>
+                            <li class="menu-item "><a href="" data-toggle="modal" data-target="#Modalsearech"><i
+                                        class="fas fa-search"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header-banner">
+                <div class="container banner-contnet">
+                    <h1 class="content-h1">Xe Cẩu MINI</h1>
+                    <h2 class="content-sub">Bánh Lốp - Bánh Xích</h1>
+                        <p class="content-p">Nhãn Hiệu: INNOVN </p>
+                        <button class="content-btn"><a href="">Xem Thêm</a></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Modal -->
+    <div class="modal fade" id="Modalsearech" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content-shearch">
+                <div class="search text-center mt-4">
+                    <div class="search-h1">Tìm Kiếm</div>
+                    <form action="">
+                        <input type="text">
+                        <button class="search-btn"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sideBar -->
+    <div class="sidebar-on_off">
+        <div class="w3-sidebar w3-bar-block w3-card w3-animate-left "
+            style="display:none; width: 300px; top: 0; background:#0063b0; z-index: 100;" id="leftMenu">
+            <div onclick="closeMenu()" class="side-menu side-menu-close"><i class="fas fa-times"></i></div>
+            <div class="side-menu d-flex justify-content-between align-items-center">
+                <a href="index.html" class=" ">TRANG CHỦ</a>
+                <div class="side-menu-arrow"></div>
+            </div>
+            <div class="side-menu d-flex justify-content-between align-items-center">
+                <a href="gioithieu.html" class=" ">GIỚI THIỆU</a>
+                <div class="side-menu-arrow"></div>
+            </div>
+            <div class="side-menu d-flex justify-content-between align-items-center">
+                <a href="product.html" class=" ">SẢN PHẨM</a>
+                <div class="side-menu-arrow"></div>
+            </div>
+            <div class="side-menu d-flex justify-content-between align-items-center">
+                <a href="dichvu.html" class=" ">DỊCH VỤ BẢO HÀNH</a>
+                <div class="side-menu-arrow"></div>
+            </div>
+            <div class="side-menu d-flex justify-content-between align-items-center">
+                <a href="duan.html" class=" ">DỰ ÁN</a>
+                <div class="side-menu-arrow"></div>
+            </div>
+            <div class="side-menu d-flex justify-content-between align-items-center">
+                <a href="tintuc.html" class=" ">TIN TỨC</a>
+                <div class="side-menu-arrow"></div>
+            </div>
+            <div class="side-menu d-flex justify-content-between align-items-center">
+                <a href="lienhe.html" class=" ">LIÊN HỆ</a>
+                <div class="side-menu-arrow"></div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <section class="container home__product">
+            <div class="title-all">
+                <h2 class="title-h2">SẢN PHẨM CHÍNH
+                </h2>
+                <p class="title-p">you will really enjoy business with us! Fast, electrical estimates at a competitive
+                    price. <br>
+                    We save you time and monney. Intested? check our photos.</p>
+            </div>
+            <div class="home__product-inner">
+                <ul class="nav nav-pills" id="home-product" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-product1-tab" data-toggle="pill" href="#home-product1"
+                            role="tab" aria-controls="home-product1" aria-selected="true">Máy tách màu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="home-product2-tab" data-toggle="pill" href="#home-product2" role="tab"
+                            aria-controls="home-product2" aria-selected="false">Máy CNC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="home-product3-tab" data-toggle="pill" href="#home-product3" role="tab"
+                            aria-controls="home-product3" aria-selected="false">Máy CHế Tác Đá</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="home-product4-tab" data-toggle="pill" href="#home-product4" role="tab"
+                            aria-controls="home-product4" aria-selected="false">Máy In UV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="home-product5-tab" data-toggle="pill" href="#home-product5" role="tab"
+                            aria-controls="home-product5" aria-selected="false">Máy Laser</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="home-product6-tab" data-toggle="pill" href="#home-product6" role="tab"
+                            aria-controls="home-product6" aria-selected="false">Dây chuyền sản xuất</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="home-product7-tab" data-toggle="pill" href="#home-product7" role="tab"
+                            aria-controls="home-product7" aria-selected="false">Máy CŨ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="home-product8-tab" data-toggle="pill" href="#home-product8" role="tab"
+                            aria-controls="home-product8" aria-selected="false">Khác</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-content home-product__content" id="home-productContent">
+                <div class="tab-pane fade show active" id="home-product1" role="tabpanel"
+                    aria-labelledby="home-product1-tab">
+                    <div class="home_product-carousel"
+                        data-flickity='{ "cellAlign": "left","contain":true ,"imagesLoaded":true,"pageDots":false,"autoPlay": 2500}'>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/product/ANH1.jpg" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/product/anh2.jpg" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/product/anh3.jpg" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/product/anh4.jpg" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/product/anh5.jpg" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade " id="home-product2" role="tabpanel" aria-labelledby="home-product2-tab">
+                    <div class="home_product-carousel"
+                        data-flickity='{ "cellAlign": "left","contain":true ,"imagesLoaded":true,"pageDots":false,"autoPlay": 2500}'>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/mayCNC/may-phan-loai-hat-nhua-theo-chat-lieu-1.png" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/mayCNC/may-tach-nhua-nguyen-chai-theo-chat-lieu-600x400.png" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/mayCNC/zun-pro-600x400.png" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/mayCNC/大米2通道-600x400.png " alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/mayCNC/大米单通道-600x400.png " alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade " id="home-product3" role="tabpanel" aria-labelledby="home-product3-tab">
+                    <div class="home_product-carousel"
+                        data-flickity='{ "cellAlign": "left","contain":true ,"imagesLoaded":true,"pageDots":false,"autoPlay": 2500}'>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/product/anh5.jpg" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/mayCNC/may-tach-nhua-nguyen-chai-theo-chat-lieu-600x400.png" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/product/anh2.jpg" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/mayCNC/大米2通道-600x400.png" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade " id="home-product4" role="tabpanel" aria-labelledby="home-product4-tab">
+                    <div class="home_product-carousel"
+                        data-flickity='{ "cellAlign": "left","contain":true ,"imagesLoaded":true,"pageDots":false,"autoPlay": 2500}'>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/mayCNC/may-phan-loai-hat-nhua-theo-chat-lieu-1.png" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/product/anh4.jpg" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/mayCNC/zun-pro-600x400.png" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/product/anh5.jpg " alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/product/anh6.jpg " alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade " id="home-product5" role="tabpanel" aria-labelledby="home-product5-tab">
+                    <div class="home_product-carousel"
+                        data-flickity='{ "cellAlign": "left","contain":true ,"imagesLoaded":true,"pageDots":false,"autoPlay": 2500}'>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/mayCNC/may-phan-loai-hat-nhua-theo-chat-lieu-1.png" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/product/ANH1.jpg" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/mayCNC/zun-pro-600x400.png" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/product/anh3.jpg" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/mayCNC/大米单通道-600x400.png " alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade " id="home-product6" role="tabpanel" aria-labelledby="home-product6-tab">
+                    <div class="home_product-carousel"
+                        data-flickity='{ "cellAlign": "left","contain":true ,"imagesLoaded":true,"pageDots":false,"autoPlay": 2500}'>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/product/ANH1.jpg" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/mayCNC/may-tach-nhua-nguyen-chai-theo-chat-lieu-600x400.png" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/product/anh5.jpg" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/mayCNC/大米2通道-600x400.png " alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/product/anh6.jpg " alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade " id="home-product7" role="tabpanel" aria-labelledby="home-product7-tab">
+                    <div class="home_product-carousel"
+                        data-flickity='{ "cellAlign": "left","contain":true ,"imagesLoaded":true,"pageDots":false,"autoPlay": 2500}'>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/mayCNC/大米单通道-600x400.png" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/product/ANH1.jpg" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/mayCNC/zun-pro-600x400.png" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/product/anh3.jpg" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/mayCNC/大米单通道-600x400.png " alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade " id="home-product8" role="tabpanel" aria-labelledby="home-product8-tab">
+                    <div class="home_product-carousel"
+                        data-flickity='{ "cellAlign": "left","contain":true ,"imagesLoaded":true,"pageDots":false,"autoPlay": 2500}'>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/product/anh6.jpg" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/mayCNC/may-tach-nhua-nguyen-chai-theo-chat-lieu-600x400.png" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/product/anh5.jpg" alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/mayCNC/大米2通道-600x400.png " alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="slide-img">
+                                <img src="./img/product/anh2.jpg " alt="">
+                                <a href="">
+                                    <div class="product__slide-title text-center">
+                                        <p>MÁY CNC ĐIÊU KHẮC ĐÁ</p>
+                                        <span>HỖN HỢP 3D & 4D</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="container section_highlight">
+            <div class="title-all">
+                <h2 class="title-h2">DỰ ÁN TIÊU BIỂU
+                </h2>
+                <p class="title-p">you will really enjoy business with us! Fast, electrical estimates at a competitive
+                    price. <br>
+                    We save you time and monney. Intested? check our photos.</p>
+            </div>
+            <div class=" section_highlight-img">
+                <div class=" row">
+                    <div class="col-lg-4 col-md-6">
+                        <a href="duan.html" class="highlight-img">
+                            <img src="./img/product/ANH1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <a href="duan.html" class="highlight-img">
+                            <img src="./img/product/anh2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <a href="duan.html" class="highlight-img">
+                            <img src="./img/product/anh3.jpg" alt="">
+
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <a href="duan.html" class="highlight-img">
+                            <img src="./img/product/anh4.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <a href="duan.html" class="highlight-img">
+                            <img src="./img/product/anh5.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <a href="duan.html" class="highlight-img">
+                            <img src="./img/product/anh6.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" container section__video">
+            <div class="title-all">
+                <h2 class="title-h2">VIDEO NỔI BẬT
+                </h2>
+                <p class="title-p">you will really enjoy business with us! Fast, electrical estimates at a competitive
+                    price. <br>
+                    We save you time and monney. Intested? check our photos.</p>
+            </div>
+            <div class="video-play">
+                <div
+                    data-flickity='{ "cellAlign": "left","contain":true ,"imagesLoaded":true,"pageDots":false,"autoPlay": 2500}'>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="img-video">
+                            <img src="./img/product/img-video1.jpg" alt="" class="img-fluid">
+                            <img src="./img/logo/play.png" alt="" class="play-btn" data-toggle="modal"
+                                data-target="#play-video1">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="img-video">
+                            <img src="./img/product/img-video2.jpg" alt="" class="img-fluid">
+                            <img src="./img/logo/play.png" alt="" class="play-btn" data-toggle="modal"
+                                data-target="#play-video2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal-video1 -->
+        <div class="modal fade" id="play-video1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <iframe width="860" height="515" src="https://www.youtube.com/embed/Eeouy6UaAwI"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <!-- <video width="100%" controls>
+                            <source src="./y2mate.com - MÁY XÚC ĐẤT  XE TẢI TO  NHẠC THIẾU NHI SÔI ĐỘNG_360p.mp4"
+                                type="video/mp4">
+                        </video> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal-video2 -->
+        <div class="modal fade" id="play-video2">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body text-center">
+                        <iframe width="860" height="515" src="https://www.youtube.com/embed/Eeouy6UaAwI"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <!-- <video width="100%" controls>
+                            <source src="./y2mate.com - MÁY XÚC ĐẤT  XE TẢI TO  NHẠC THIẾU NHI SÔI ĐỘNG_360p.mp4"
+                                type="video/mp4">
+                        </video> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section_new">
+            <div class="title-all">
+                <h2 class="title-h2">TIN TỨC MỚI
+                </h2>
+                <p class="title-p">you will really enjoy business with us! Fast, electrical estimates at a competitive
+                    price. <br>
+                    We save you time and monney. Intested? check our photos.</p>
+            </div>
+            <div class="container new-item">
+                <div
+                    data-flickity='{ "cellAlign": "left","contain":true ,"imagesLoaded":true,"pageDots":false,"autoPlay": 2500}'>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="new__item-card">
+                            <div class="imgBx">
+                                <img src="./img/product/new1.jpg" alt="">
+                            </div>
+                            <div class="new__item-content">
+                                <div class="item-title-p">
+                                    14/ 10/ 2020
+                                </div>
+                                <div class="item-title-p2 title-p2 ">
+                                    <a href="tintuc.html"> Cách sử dụng máy lase hiệu quả và an toàn nhất</a>
+                                </div>
+                                <div class="item-title-p3">
+                                    Điện được coi như là nguồn tài nguyên quý giá nhất mà chúng ta có trong xã hội hiện
+                                    đại. Không có ...
+                                </div>
+                                <div class="item-title-p2">
+                                    <a href="">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="new__item-card">
+                            <div class="imgBx">
+                                <img src="./img/product/new2.jpg" alt="">
+                            </div>
+                            <div class="new__item-content">
+                                <div class="item-title-p">
+                                    14/ 10/ 2020
+                                </div>
+                                <div class="item-title-p2 title-p2">
+                                    <a href="tintuc.html"> Cách sử dụng máy lase hiệu quả và an toàn nhất</a>
+                                </div>
+                                <div class="item-title-p3">
+                                    Điện được coi như là nguồn tài nguyên quý giá nhất mà chúng ta có trong xã hội hiện
+                                    đại. Không có ...
+                                </div>
+                                <div class="item-title-p2">
+                                    <a href="">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="new__item-card">
+                            <div class="imgBx">
+                                <img src="./img/product/new3.jpg" alt="">
+                            </div>
+                            <div class="new__item-content">
+                                <div class="item-title-p">
+                                    14/ 10/ 2020
+                                </div>
+                                <div class="item-title-p2 title-p2">
+                                    <a href="tintuc.html"> Cách sử dụng máy lase hiệu quả và an toàn nhất</a>
+                                </div>
+                                <div class="item-title-p3">
+                                    Điện được coi như là nguồn tài nguyên quý giá nhất mà chúng ta có trong xã hội hiện
+                                    đại. Không có ...
+                                </div>
+                                <div class="item-title-p2">
+                                    <a href="">Xem thêm</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-customer">
+            <div class="title-all">
+                <h2 class="title-h2">ĐỐI TÁC CỦA CHÚNG TÔI
+                </h2>
+                <p class="title-p">you will really enjoy business with us! Fast, electrical estimates at a competitive
+                    price. <br>
+                    We save you time and monney. Intested? check our photos.</p>
+            </div>
+            <div class="container customer-logo">
+                <div class="customer-logo-wrap"
+                    data-flickity='{ "cellAlign": "left","contain":true ,"pageDots":false,"prevNextButtons": false }'>
+                    <div class="slide-img-logo col-lg-3 col-md-6 col-sm-6">
+                        <a href="">
+                            <img src="./img/logo/layer12.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="slide-img-logo col-lg-3 col-md-6 col-sm-6">
+                        <a href="">
+                            <img src="./img/logo/layer13.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="slide-img-logo col-lg-3 col-md-6 col-sm-6">
+                        <a href="">
+                            <img src="./img/logo/layer14.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="slide-img-logo col-lg-3 col-md-6 col-sm-6">
+                        <a href="">
+                            <img src="./img/logo/layer15.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="slide-img-logo col-lg-3 col-md-6 col-sm-6">
+                        <a href="">
+                            <img src="./img/logo/layer16.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="customer-service-wrap">
+            <div class="container customer-service">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-3 text-center">
+                        <div class="service-icon">
+                            <img src="./img/icon/oto.png" alt="">
+                            <a href="">
+                                <p>MIỄN PHÍ GIAO HÀNG</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 text-center">
+                        <a href="">
+                            <div class="service-icon">
+                                <img src="./img/icon/hotro.png" alt="">
+                                <a href="">
+                                    <p>HỖ TRỢ TƯ VẤN 24/7</p>
+                                </a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 text-center">
+                        <a href="">
+                            <div class="service-icon">
+                                <img src="./img/icon/baohanh.png" alt="">
+                                <a href="">
+                                    <p>BẢO HÀNH LÊN ĐẾN 2 NĂM</p>
+                                </a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 text-center">
+                        <a href="">
+                            <div class="service-icon">
+                                <img src="./img/icon/thutuc.png" alt="">
+                                <a href="">
+                                    <p>THỦ TỤC ĐƠN GIẢN</p>
+                                </a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-wrap">
+            <div class="container footer-on">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="on on__contact">
+                            <h4>Thông tin liên hệ</h4>
+                            <h5>CÔNG TY TNHH CÔNG NGHỆ INNOVN</h5>
+                            <div class="contact-icon d-flex align-items-start">
+                                <a href="">
+                                    <span><img src="./img/icon/Compound Path.png" alt=""></span>
+                                </a>
+                                <a href="">
+                                    <span>Toàn nhà SME Hoàng
+                                        Gia, Đường Tô Hiệu, P.Quang Trung, Q. Hà Đông, TP Hà Nội
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="contact-icon pt-4">
+                                <a href="">
+                                    <span><img src="./img/icon/mail.png" alt=""></span>
+                                </a>
+                                <a href="mailto:lienhe@innovn.com">
+                                    <span>Email: lienhe@innovo.com</span>
+                                </a>
+                            </div>
+                            <div class="contact-icon">
+                                <a href="tel:0986331122">
+                                    <span><img src="./img/icon/phone.png" alt=""></span>
+                                </a>
+                                <a href="tel: 0986331122">
+                                    <span>Điện Thoại: 0986 33 11 22</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="on on__office">
+                            <h4>Văn Phòng</h4>
+                            <div class="contact-icon d-flex align-items-start">
+                                <a href="">
+                                    <span><img src="./img/icon/Compound Path.png" alt=""></span>
+                                </a>
+                                <a href=""><span>VPĐD Ninh Bình: Thôn
+                                        Vũ Xá, xã Ninh Vân, Huyện Hoa Lư, Tỉnh Ninh Bình</span>
+                                </a>
+                            </div>
+                            <div class="contact-icon ">
+                                <a href="">
+                                    <span><img src="./img/icon/phone.png" alt=""></span>
+                                </a>
+                                <a href="tel: 0975331155">
+                                    <span>Điện Thoại: 0975 33 11 55</span>
+                                </a>
+                            </div>
+                            <div class="contact-icon contact-icon-boder d-flex align-items-start">
+                                <a href="">
+                                    <span><img src="./img/icon/Compound Path.png" alt=""></span>
+                                </a>
+                                <a href="">
+                                    <span>VPĐD Bắc Ninh: Thôn
+                                        Phú Khê Thượng, xã Phú Khê, thị xã Từ Sơn, Bắc Ninh</span>
+                                </a>
+                            </div>
+                            <div class="contact-icon">
+                                <a href="">
+                                    <span><img src="./img/icon/phone.png" alt=""></span>
+                                </a>
+                                <a href="tel: 0975331155">
+                                    <span>Điện Thoại: 0975 33 11 55</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="on on__input">
+                            <h4>Đăng ký tư vấn ngay</h4>
+                            <input type="text" placeholder="Họ và tên">
+                            <input type="text" placeholder="Email">
+                            <input type="text" placeholder="Điện thoại">
+                            <a href="">
+                                <button class="btn">
+                                    <span><i class="fas fa-envelope"></i></span>
+                                    <span>Đăng ký tư vấn</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer__bottom-title d-flex justify-content-between align-items-center">
+                <a href="">
+                    <div class="bottom__title-name">Copyright 2020 © innovn. All Right Resevered</div>
+                </a>
+                <div class="bottom__title-icon d-flex align-items-center">
+                    <div class="circle-icon">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                    <div class="circle-icon">
+                        <a href="#">
+                            <i class="fas fa-building"></i>
+                        </a>
+                    </div>
+                    <div class="circle-icon">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                    <div class="circle-icon">
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="circle-icon">
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="add__item">
+        <div id="item__btn-back"><i class="fas fa-angle-double-up"></i></div>
+        <div class="mobile_animation">
+            <a href="tel:0986331122"><img src="./img/icon/phone.png" alt=""></a>
+        </div>
+    </section>
+</body>
+<!-- jsboostrap -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<!-- link thư viện jquery lấy từ w3school -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- jsStyky -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<script>
+    $('.home__product .home__product-inner .nav-pills').on('shown.bs.tab', function (event) {
+        console.log(123);
+        $('.home-product__content .tab-pane .home_product-carousel').flickity('resize');
+    });
+</script>
+<script src="./app.js"></script>
+
+</html>

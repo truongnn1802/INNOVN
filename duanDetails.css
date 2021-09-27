@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:HK Nova;
+}
+@font-face {
+    font-family:HK Nova;
+    src:url('./font/HKNova-Regular.otf');
+    font-weight:400;
+   }
+    @font-face {
+    font-family:HK Nova;
+    src:url('./font/HKNova-SemiBold.otf');
+    font-weight:600;
+    }
+    @font-face {
+    font-family:HK Nova;
+    src:url('./font/HKNova-Medium.otf');
+    font-weight:500;
+    }
+    @font-face {
+    font-family:HK Nova;
+    src:url('./font/HKNova-SemiBold.otf');
+    font-weight:700;
+    }
+/* .post__details */
+.post__details{
+    margin: 50px 0;
+}
+.post__details .post__details-content>ul{
+    margin: 0 0 20px;
+    padding-left: 55px;
+    list-style: disc;
+}
+.post__details .post__details-content .details-content__img{
+    margin-top: 72px;
+}
+.post__details .post__details-content>p> img{
+    max-width: 100%;
+}
+.post__details .post__details-content .details-content__name{
+    text-align: center;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* sideber__item-productNew */
+.sideber__item {
+    border: 2px solid #e6e7e8;
+    padding: 18px;
+    margin-bottom: 32px;
+}
+.sidebar__item-head{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 8px;
+    border-bottom: 4px solid #e6e7e8;
+    position: relative;
+} 
+.sidebar__item-head::before{
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 4px;
+    left: 0;
+    bottom: 0;
+    margin-bottom: -4px;
+    background-color: #0063b0;
+}
+.sideber__item-productNew .item-productNew{
+    padding: 16px 0 16px 0;
+    border-bottom: 1px solid #e6e7e8;
+}
+.sideber__item .sideber__item-productNew .item-productNew >a{
+    width: 77px;
+    height: 77px;
+    display: block;
+    margin-right: 10px;
+}
+.sideber__item .sideber__item-productNew .item-productNew >a>img{
+    width: 100%;
+}
+.sideber__item .sideber__item-productNew .item-productNew__name{
+    font-size: 14px;
+    color: #000;
+}
+.sideber__item .sideber__item-productNew .item-productNew__name>a {
+    text-decoration: none;
+}
+/* relate__product */
+.relate__product-h3{
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 16px;
+    border-bottom: 4px solid #e6e7e8;
+    position: relative;
+    margin: 0 0 28px 0;
+}
+.relate__product-h3::before{
+    content: "";
+    position: absolute;
+    width: 22%;
+    height: 4px;
+    left: 0;
+    bottom: 0;
+    margin-bottom: -4px;
+    background-color: #0063b0;
+}
+.relate__product .relate__product-img{
+    margin-bottom: 61px;
+}

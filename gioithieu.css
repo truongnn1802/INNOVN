@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:HK Nova;
+}
+@font-face {
+    font-family:HK Nova;
+    src:url('./font/HKNova-Regular.otf');
+    font-weight:400;
+   }
+    @font-face {
+    font-family:HK Nova;
+    src:url('./font/HKNova-SemiBold.otf');
+    font-weight:600;
+    }
+    @font-face {
+    font-family:HK Nova;
+    src:url('./font/HKNova-Medium.otf');
+    font-weight:500;
+    }
+    @font-face {
+    font-family:HK Nova;
+    src:url('./font/HKNova-SemiBold.otf');
+    font-weight:700;
+    }
+/* header-bannerGT */
+.header-wrap .header-bannerGT{
+    background-image: url("./img/gioithieu/BnGioithieu.jpg");
+    height: 275px;
+    margin-top: -10px;
+    position: relative;
+}
+.header-wrap .header-bannerGT::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #a2a196;
+    opacity: .3;
+}
+.header-wrap .header-bannerGT .banner-contnetGT{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.header-bannerGT .banner-contnetGT .banner-contnetGT__h3{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+}
+.header-bannerGT .banner-contnetGT .banner-contnetGT__p{
+    color: #fff;
+    font-size: 15px;
+    font-family:HK Nova;
+}
+/* about-top */
+.about-top{
+margin: 80px 0;
+}
+.about-top .about-top__img >a>img{
+    max-width: 100%;
+}
+.about-top .about-top__content{
+    margin-top: 24px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.about-top .about-top__content .content-subtitle{
+    font-size: 16px;
+    font-weight: 700;
+    color: #f4811e;
+    margin: 0;
+}
+.about-top .about-top__content .content-title{
+    font-size: 36px;
+    font-weight: 700;
+    color: #3a3a3a;
+    font-family:HK Nova;
+}
+.about-top .about-top__content .content-desc{
+    color: #6d6e71;
+    font-size: 14px;
+}
+.about-top .about-top__content .content-desc .content-desc__p{
+    margin-top: 32px;
+    margin-bottom: 0;
+}
+.about-top .about-top__content>a {
+    text-decoration: none;
+}
+.about-top .about-top__content a .content-btnGt{
+    width: 160px;
+    height: 46px;
+    margin-top: 32px;
+    text-align: center;
+    line-height: 46px;
+    background-color: #f4811e;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+}
+.about-top .about-top__content a .content-btnGt:hover{
+background-color: #0063b0;
+}
+/* about-mid */
+.about-mid{
+    background-image: url("./img/gioithieu/about-bg.png");
+    width: 100%;
+    height: 339px;
+    object-fit: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.about-mid::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f4ece9;
+    opacity: .4;
+}
+.about-mid .about-mid__service{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.about-mid .about-mid__service .mid__service-icon>a {
+    color: #000;
+    text-decoration: none;
+
+}
+.about-mid .about-mid__service .mid__service-icon>a>p{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+/* about-bottom */
+.about-bottom {
+    margin: 60px 0 90px 0;
+}
+.about-bottom .about-bottom__subtitle{
+    font-size: 16px;
+    font-weight: 700;
+    color: #f4811e;
+    margin: 0;
+}
+.about-bottom .about-bottom__title{
+    font-size: 36px;
+    font-weight: 700;
+    color: #3a3a3a;
+    font-family: HK Nova;
+}
+.about-bottom .about-bottom__content {
+    color: #6d6e71;
+    font-size: 14px;
+}
+.about-bottom .about-bottom__content .content-desc__p{
+    margin-top: 32px;
+    margin-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+    .about-top .about-top__img >a>img{
+        width: 100%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+@media screen and (max-width: 767px) {
+    .about-mid {
+        height: 678px;
+        object-fit: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}

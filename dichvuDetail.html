@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- iconLocalhost -->
+    <link rel="icon" href="./img/logo/logosmall.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./lienhe.css">
+    <link rel="stylesheet" href="./dichvuDetail.css">
+    <title>DỊCH VỤ BẢO HÀNH MÁY CNC INNOVN</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-wrap">
+            <div class="header-top-wrap" id="top">
+                <div class="container header-top">
+                    <div class="header-hotline d-flex align-items-center">
+                        <a href=""><img src="./img/icon/Path.png" alt=""></a>
+                        <a href=""><span>Hotline: 0986 33 11 22</span></a>
+                    </div>
+                    <div class="header-icon">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid px-0 nav-x" id="onscroll-Event">
+                <div class="container header-sidebar ">
+                    <div class="header-logo">
+                        <a href="index.html"><img src="./img/logo/LogoGroup.jpg" alt=""></a>
+                    </div>
+                    <div class="header-navbar-sidebar d-flex align-items-center ">
+                        <div class="nav-search" data-toggle="modal" data-target="#Modalsearech">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="nav-mb" onclick="openMenu()">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid px-0 nav-y" id="onscroll-Event2">
+                <div class="container header-Nav">
+
+                    <a href="index.html"><img src="./img/logo/LogoGroup.jpg" alt=""></a>
+
+                    <div class="header-navbar">
+                        <ul class="menu-list d-flex justify-content-center">
+                            <li class="menu-item"><a href="index.html">TRANG CHỦ</a></li>
+                            <li class="menu-item"><a href="gioithieu.html">GIỚI THIỆU</a></li>
+                            <li class="menu-item"><a href="product.html">SẢN PHẨM</a></li>
+                            <li class="menu-item"><a href="dichvu.html">DỊCH VỤ BẢO HÀNH</a></li>
+                            <li class="menu-item"><a href="duan.html">DỰ ÁN</a></li>
+                            <li class="menu-item"><a href="tintuc.html">TIN TỨC</a></li>
+                            <li class="menu-item"><a href="lienhe.html">LIÊN HỆ</a></li>
+                            <li class="menu-item "><a href="" data-toggle="modal" data-target="#Modalsearech"><i
+                                        class="fas fa-search"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bannerLH">
+                <div class="container banner-contnetLH">
+                    <h3 class="banner-contnetLH__h3">DỊCH VỤ BẢO HÀNH MÁY CNC</h3>
+                    <p class="banner-contnetLH__p">Trang chủ / Dịch vụ bảo hành / Dịch vụ bảo hành máy CNC</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Modal -->
+    <div class="modal fade" id="Modalsearech" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content-shearch">
+                <div class="search text-center mt-4">
+                    <div class="search-h1">Tìm Kiếm</div>
+                    <form action="">
+                        <input type="text">
+                        <button class="search-btn"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sideBar -->
+    <div class="sidebar-on_off">
+        <div class="w3-sidebar w3-bar-block w3-card w3-animate-left "
+            style="display:none; width: 300px; top: 0; background:#0063b0; z-index: 100;" id="leftMenu">
+            <div onclick="closeMenu()" class="side-menu side-menu-close"><i class="fas fa-times"></i></div>
+            <div class="side-menu d-flex justify-content-between align-items-center">
+                <a href="index.html" class=" ">TRANG CHỦ</a>
+                <div class="side-menu-arrow"></div>
+            </div>
+            <div class="side-menu d-flex justify-content-between align-items-center">
+                <a href="gioithieu.html" class=" ">GIỚI THIỆU</a>
+                <div class="side-menu-arrow"></div>
+            </div>
+            <div class="side-menu d-flex justify-content-between align-items-center">
+                <a href="product.html" class=" ">SẢN PHẨM</a>
+                <div class="side-menu-arrow"></div>
+            </div>
+            <div class="side-menu d-flex justify-content-between align-items-center">
+                <a href="dichvu.html" class=" ">DỊCH VỤ BẢO HÀNH</a>
+                <div class="side-menu-arrow"></div>
+            </div>
+            <div class="side-menu d-flex justify-content-between align-items-center">
+                <a href="duan.html" class=" ">DỰ ÁN</a>
+                <div class="side-menu-arrow"></div>
+            </div>
+            <div class="side-menu d-flex justify-content-between align-items-center">
+                <a href="tintuc.html" class=" ">TIN TỨC</a>
+                <div class="side-menu-arrow"></div>
+            </div>
+            <div class="side-menu d-flex justify-content-between align-items-center">
+                <a href="lienhe.html" class=" ">LIÊN HỆ</a>
+                <div class="side-menu-arrow"></div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <section class="service_details">
+            <div class="container">
+                <div class="col-lg-9">
+                    <img src="./img/dichvu/che-do-bao-hanh.jpg" alt="">
+                    <p>Bất cứ sản phẩm nào khách hàng mua từ Công ty chúng tôi đều được bảo hành miễn phí với điều kiện hàng đang trong thời gian bảo hành, chi tiết như sau :</p>
+                    <ul>
+                        <li>Bảo hành 2 năm (24 tháng) đối với phần khung xương máy – phần cơ khí (tính từ ngày lắp đặt);</li>
+                        <li>Bảo hành 1 năm (12 tháng) đối với phần điện tử như bộ điều khiển ShanLong, máy biến tần, driver, máy biến áp, thanh ray, bánh răng, quạt gió, động cơ (servo hoặc step), trục vít me, thanh răng, bánh răng đồng bộ, nguồn 24V, bộ khởi động từ, cảm biến, bơm dầu… (tính từ ngày lắp đặt);</li>
+                        <li>Bảo hành 06 tháng các phụ kiện tiêu hao khác như trục quay (củ đục), máy bơm, dây da đồng bộ curoa, công tắc … (tính từ ngày lắp đặt);</li>
+                        <li>Các phụ kiện dễ hỏng như dao khắc, lưỡi xẻ, các loại ốc vít, dây điện, đầu nối điện, đầu nối củ, dây dẫn nước làm mát, dây dẫn dầu, tấm chắn bụi, kẹp dao collet, mặt bàn gia công (thanh nhôm và tấm PVC), máng xích nhựa … không thuộc phạm vi bảo hành.</li>
+                        <li>Đổi mới linh phụ kiện của sản phẩm mới mua trong vòng 01 tuần đầu sau lắp đặt nếu lỗi do nhà sản xuất; sau thời gian này Công ty chúng tôi xin phép không đổi mới mà chỉ bảo hành miễn phí cho Khách hàng.</li>
+                    </ul>
+                    <p><i class="i">Phạm vi không thuộc bảo hành :</i></p>
+                    <ul>
+                        <li>Máy đã hết thời gian bảo hành;</li>
+                        <li>Thao tác sai, va đập, nguồn điện và điện áp không thích hợp, người thao tác máy và các nhân tố bên ngoài…gây ảnh hưởng đến máy;</li>
+                        <li>Các trường hợp như thiên tai, lũ lụt, sét đánh, chập điện, cháy nổ, vật nặng rơi lên máy … (tác động bên ngoài) Công ty chúng tôi phục vụ bảo dưỡng miễn phí (máy vẫn đang trong thời gian bảo hành) với chi phí các linh phụ kiện thay thế do Khách hàng chi trả.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-wrap">
+            <div class="container footer-on">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="on on__contact">
+                            <h4>Thông tin liên hệ</h4>
+                            <h5>CÔNG TY TNHH CÔNG NGHỆ INNOVN</h5>
+                            <div class="contact-icon d-flex align-items-start">
+                                <a href="">
+                                    <span><img src="./img/icon/Compound Path.png" alt=""></span>
+                                </a>
+                                <a href="">
+                                    <span>Toàn nhà SME Hoàng
+                                        Gia, Đường Tô Hiệu, P.Quang Trung, Q. Hà Đông, TP Hà Nội
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="contact-icon pt-4">
+                                <a href="">
+                                    <span><img src="./img/icon/mail.png" alt=""></span>
+                                </a>
+                                <a href="mailto:lienhe@innovn.com">
+                                    <span>Email: lienhe@innovo.com</span>
+                                </a>
+                            </div>
+                            <div class="contact-icon">
+                                <a href="tel:0986331122">
+                                    <span><img src="./img/icon/phone.png" alt=""></span>
+                                </a>
+                                <a href="tel: 0986331122">
+                                    <span>Điện Thoại: 0986 33 11 22</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="on on__office">
+                            <h4>Văn Phòng</h4>
+                            <div class="contact-icon d-flex align-items-start">
+                                <a href="">
+                                    <span><img src="./img/icon/Compound Path.png" alt=""></span>
+                                </a>
+                                <a href=""><span>VPĐD Ninh Bình: Thôn
+                                        Vũ Xá, xã Ninh Vân, Huyện Hoa Lư, Tỉnh Ninh Bình</span>
+                                </a>
+                            </div>
+                            <div class="contact-icon ">
+                                <a href="">
+                                    <span><img src="./img/icon/phone.png" alt=""></span>
+                                </a>
+                                <a href="tel: 0975331155">
+                                    <span>Điện Thoại: 0975 33 11 55</span>
+                                </a>
+                            </div>
+                            <div class="contact-icon contact-icon-boder d-flex align-items-start">
+                                <a href="">
+                                    <span><img src="./img/icon/Compound Path.png" alt=""></span>
+                                </a>
+                                <a href="">
+                                    <span>VPĐD Bắc Ninh: Thôn
+                                        Phú Khê Thượng, xã Phú Khê, thị xã Từ Sơn, Bắc Ninh</span>
+                                </a>
+                            </div>
+                            <div class="contact-icon">
+                                <a href="">
+                                    <span><img src="./img/icon/phone.png" alt=""></span>
+                                </a>
+                                <a href="tel: 0975331155">
+                                    <span>Điện Thoại: 0975 33 11 55</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="on on__input">
+                            <h4>Đăng ký tư vấn ngay</h4>
+                            <input type="text" placeholder="Họ và tên">
+                            <input type="text" placeholder="Email">
+                            <input type="text" placeholder="Điện thoại">
+                            <a href="">
+                                <button class="btn">
+                                    <span><i class="fas fa-envelope"></i></span>
+                                    <span>Đăng ký tư vấn</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer__bottom-title d-flex justify-content-between align-items-center">
+                <a href="">
+                    <div class="bottom__title-name">Copyright 2020 © innovn. All Right Resevered</div>
+                </a>
+                <div class="bottom__title-icon d-flex align-items-center">
+                    <div class="circle-icon">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                    <div class="circle-icon">
+                        <a href="#">
+                            <i class="fas fa-building"></i>
+                        </a>
+                    </div>
+                    <div class="circle-icon">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                    <div class="circle-icon">
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="circle-icon">
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="add__item">
+        <div id="item__btn-back"><i class="fas fa-angle-double-up"></i></div>
+        <div class="mobile_animation">
+            <a href="tel:0986331122"><img src="./img/icon/phone.png" alt=""></a>
+        </div>
+    </section>
+</body>
+<!-- jsboostrap -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<!-- link thư viện jquery lấy từ w3school -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- jsStyky -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<script src="./app.js"></script>
+
+</html>
